@@ -18,7 +18,7 @@ Rails.application.config.middleware.use OmniAuth::Builder do
   provider :smarthr, ENV['SMARTHR_CLIENT_ID'], ENV['SMARTHR_CLIENT_SECRET']
 end
 ```
-※`SMARTHR_CLIENT_ID` 及び `SMARTHR_CLIENT_SECRET`を取得するには[SmartHR Plus について](https://www.smarthr.plus/about)をご参照の上、パートナープログラムについてお問い合わせください。
+※`SMARTHR_CLIENT_ID` 及び `SMARTHR_CLIENT_SECRET`を取得するには [SmartHR Plus](https://www.smarthr.plus) の[パートナープログラムについて](https://www.smarthr.plus/partner)をご参照の上、お問い合わせください。
 
 環境変数を用意します。
 
